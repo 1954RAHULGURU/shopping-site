@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal");
+
+* {
+  box-sizing: border-box;
+  font-family: Tajawal;
+  padding: 0;
+  margin: 0;
+}
+
+.root {
+  background-color: bisque;
+  width: 100%;
+  height: 100vh;
+}
+
+.heading1 {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+input:hover {
+  background-color: rgba(205, 233, 145, 0.822);
+  box-shadow: inset 2px 2px 8px rgb(249, 249, 243);
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: burlywood;
+  font-weight: bold;
+}
+
+.deletebtn {
+  width: 70px;
+}
+
+.editbtn {
+  width: 70px;
+}
+
+.addbtn {
+  width: 70px;
+}
+
+.inputdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapitem {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  margin: 15px;
+}
+
+.data {
+  border: 5px;
+  color: red;
+}
+
+.contentdata h2 {
+  margin: 15px;
+}
+
+.mui {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .deletebtn {
+    height: 30px;
+    padding: 5px;
+  }
+  .editbtn {
+    height: 30px;
+    padding: 5px;
+  }
+  .mapitem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+}
